@@ -1,0 +1,25 @@
+{
+  "supported_devices": [
+    {
+      "manufacturer": "Xiaomi",
+      "model": "Redmi Note 9",
+      "codename": "merlin",
+      "board": "merlin",
+      "processor": "MediaTek Helio G85"
+    },
+    {
+      "manufacturer": "Samsung",
+      "model": "Galaxy A12",
+      "codename": "a12",
+      "board": "exynos",
+      "processor": "Exynos 850"
+    },
+    {
+      "manufacturer": "Realme",
+      "model": "Narzo 30A",
+      "codename": "narzo30a",
+      "board": "mt6765",
+      "processor": "MediaTek Helio G35"
+    }
+  ]
+}

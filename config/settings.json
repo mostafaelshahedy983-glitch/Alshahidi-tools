@@ -2,24 +2,29 @@
   "app": {
     "name": "Alshahidi Tools",
     "version": "1.0.0",
-    "description": "أداة متكاملة لإدارة وصيانة أجهزة Android"
+    "author": "Mostafa Elshahedy",
+    "description": "Comprehensive Android device management and flashing tool"
   },
-  "adb": {
-    "timeout": 30,
-    "auto_detect": true
+  "paths": {
+    "backups": "~/.alshahidi_tools/backups",
+    "logs": "~/.alshahidi_tools/logs",
+    "roms": "~/.alshahidi_tools/roms"
   },
-  "fastboot": {
-    "timeout": 60,
-    "auto_detect": true
-  },
-  "backup": {
-    "compress": true,
-    "auto_backup": false,
-    "max_backups": 10
+  "tools": {
+    "adb": "adb",
+    "fastboot": "fastboot",
+    "mtkclient": "mtkclient",
+    "flash_tool": "flash_tool"
   },
   "logging": {
     "level": "INFO",
-    "file": "~/.alshahidi_tools/logs/alshahidi.log",
     "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  },
+  "features": {
+    "backup_restore": true,
+    "ota_updates": true,
+    "app_management": true,
+    "chimera_analysis": true,
+    "pandora_extraction": true
   }
 }
