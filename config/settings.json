@@ -1,0 +1,25 @@
+{
+  "app": {
+    "name": "Alshahidi Tools",
+    "version": "1.0.0",
+    "description": "أداة متكاملة لإدارة وصيانة أجهزة Android"
+  },
+  "adb": {
+    "timeout": 30,
+    "auto_detect": true
+  },
+  "fastboot": {
+    "timeout": 60,
+    "auto_detect": true
+  },
+  "backup": {
+    "compress": true,
+    "auto_backup": false,
+    "max_backups": 10
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "~/.alshahidi_tools/logs/alshahidi.log",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  }
+}
